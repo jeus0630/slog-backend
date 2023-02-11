@@ -49,7 +49,7 @@ export class SigninRequestDto {
   @MaxLength(100)
   @ApiProperty({
     example: 'foo@bar.com',
-    description: '닉네임',
+    description: '이메일',
     required: true,
   })
   email: string;
